@@ -9,13 +9,14 @@ Curated, production-ready WordPress snippets for real-world WordPress projects.
 - `performance/` – Speed and optimization
 - `frontend/` – Theme/frontend helpers
 - `woocommerce/` – WooCommerce-specific utilities
+- etc
 
 ## Usage
 
 Each snippet is a standalone `.php` file.
 
 - Copy its contents into your theme's `functions.php`, **or**
-- Include it in a custom functionality plugin.
+- Include it in a custom functionality plugin (e.g., Code Snippets).
 
 ## Snippets
 
