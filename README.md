@@ -30,3 +30,23 @@ Allows administrators or users editing their own profile to change their WordPre
 This snippet performs a direct database update – use with care in production.
 
 **Tested:** WordPress 6.x
+
+### Live Clock (Shortcode + Footer)
+
+Displays a real-time clock showing either:
+
+- The site's timezone, or
+- The visitor's local timezone.
+
+**Shortcode:** `[live_clock]`
+
+**Settings (inside the file):**
+
+- `mode` – `'site'` or `'visitor'`
+- `site_timezone` – e.g. `Africa/Lagos`, `Europe/London`
+- `site_label` – label shown when `mode = 'site'`
+- `show_in_footer` – `true` to auto-output in the footer, `false` for shortcode only
+
+**File:** `frontend/live-clock-shortcode.php`
+
+**Tested:** WordPress 6.x
