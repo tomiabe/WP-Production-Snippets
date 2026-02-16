@@ -50,3 +50,28 @@ Displays a real-time clock showing either:
 **File:** `frontend/live-clock-shortcode.php`
 
 **Tested:** WordPress 6.x
+
+### Remove Category & Tag Base
+
+Removes `/category/` and `/tag/` from default WordPress taxonomy URLs.
+
+**Examples:**
+
+- `/category/news/` → `/news/`
+- `/category/parent/child/` → `/parent/child/`
+- `/tag/design/` → `/design/`
+
+**Features:**
+
+- Supports hierarchical categories  
+- Preserves existing posts and pages  
+- Resolves base-less category and tag archives  
+- Handles `/something/page/2` pagination  
+- 301 redirects old `/category/...` and `/tag/...` URLs  
+- Flushes rewrite rules once
+
+**File:** `seo/remove-category-tag-base.php`
+
+**Warning:** May conflict with pages or custom post types that share slugs, or with SEO plugins that modify rewrites. Test on staging before production.
+
+**Tested:** WordPress 6.x
