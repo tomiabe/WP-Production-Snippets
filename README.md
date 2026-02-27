@@ -84,7 +84,7 @@ Automatically switches a block theme’s style variation (`/styles/*.json`) base
 - 13:00–19:00 → styles/parchment.json
 - 19:00–07:00 → styles/inverted.json
 
-**File:** `block-theme/time-based-style-variation-switcher.php
-`  
+**File:** `block-theme/time-based-style-variation-switcher.php`
+
 **Tested:** WordPress 6.x, block themes only.
 
