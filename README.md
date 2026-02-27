@@ -119,6 +119,18 @@ Creates a draft copy including:
 
 **Scope:** Admin only.
 
+### Per‑Post Visibility Toggles
+
+Adds sidebar options to posts allowing editors to:
+
+- Hide featured image
+- Hide excerpt
+
+Applies only to the `post` post type.
+
+**File:** `admin/per-post-visibility-toggles.php`
+
+**Scope:** Admin UI + frontend filtering.
 
 
 **Tested:** WordPress 6.x, block themes only.
