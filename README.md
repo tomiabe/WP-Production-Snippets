@@ -101,6 +101,25 @@ Provides basic cache control without installing a caching plugin.
 
 **Warning:** Disables browser caching for HTML. Not recommended for high-traffic production sites.
 
+### Duplicate Posts & Pages (Admin)
+
+Adds a “Duplicate” link to the row actions in:
+
+- All Posts
+- All Pages
+
+Creates a draft copy including:
+
+- Content
+- Excerpt
+- Taxonomies
+- Custom fields (meta)
+
+**File:** `admin/duplicate-posts-pages.php`
+
+**Scope:** Admin only.
+
+
 
 **Tested:** WordPress 6.x, block themes only.
 
