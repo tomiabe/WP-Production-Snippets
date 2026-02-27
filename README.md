@@ -75,3 +75,15 @@ Removes `/category/` and `/tag/` from default WordPress taxonomy URLs.
 **Warning:** May conflict with pages or custom post types that share slugs, or with SEO plugins that modify rewrites. Test on staging before production.
 
 **Tested:** WordPress 6.x
+
+### Time‑Based Style Variation Switcher
+
+Automatically switches a block theme’s style variation (`/styles/*.json`) based on the site’s local time.
+
+- 07:00–13:00 → default theme.json
+- 13:00–19:00 → styles/parchment.json
+- 19:00–07:00 → styles/inverted.json
+
+**File:** `block-theme/time-based-style-variation-switcher.php`  
+Tested: WordPress 6.x, block themes only.
+
