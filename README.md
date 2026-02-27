@@ -86,5 +86,21 @@ Automatically switches a block theme’s style variation (`/styles/*.json`) base
 
 **File:** `block-theme/time-based-style-variation-switcher.php`
 
+### Lightweight Cache Control (No Plugin)
+
+Provides basic cache control without installing a caching plugin.
+
+**Features:**
+
+- Frontend no-cache headers
+- Automatic CSS/JS versioning
+- Admin bar “Purge Cache” button
+- Object cache flush support
+
+**File:** `performance/lightweight-cache-control.php`
+
+**Warning:** Disables browser caching for HTML. Not recommended for high-traffic production sites.
+
+
 **Tested:** WordPress 6.x, block themes only.
 
